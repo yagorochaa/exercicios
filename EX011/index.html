@@ -8,10 +8,22 @@
 <body>
   <h1>imagens dinamicas</h1>
   <p>tente abrir este site em varios dispositivos diferesntes</p>
-  <picture>
+  <picture> <!-- o source precisa está organizado do menor para o maior -->
     <source media="(max-width: 750px )" srcset="imagens/foto-pp.png" type="image/png">
     <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
     <img src="imagens/foto-p.png" alt="imagen flexivel">
   </picture>
+  <!-- aula 2-->
+  <h1>reproduzindo audios</h1>
+  <p>vamos aprender a reproduzir audios em HTML</p>
+  <audio src="midia/Go! - NEFFEX.mp3" controls autoplay></audio>
+  <audio src="midia/100 Degrees Under - RAGE.mp3" controls loop></audio>
+  <!-- MP3 WAV OGG -->
+        <!--<audio preload="metadata" autoplay>
+        <source src="midia/100 Degrees Under - RAGE.mp3" type="audio/mpg">
+        <p>infelizmente seu navegador não consegue reproduzir audio</p > 
+          <a href="midia/100 Degrees Under - RAGE.mp3">clique aqui para baixar o arquivo mp3</a>-->
+    
+   </audio>
 </body>
 </html>
