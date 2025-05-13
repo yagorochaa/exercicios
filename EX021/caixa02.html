@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>grouping tags</title>
+    <style>
+      body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: dimgray;
+        margin: 10px;
+      }
+      header{
+        background-color: white;
+        padding: 10px;
+        
+      }
+      main{
+        background-color: lightgray;
+        padding-inline-start: 10px;
+        margin-block-start: 10px;
+
+      }
+        article{
+          background-color: lightyellow;
+          padding: 10px;
+        }
+        article > aside {
+          background-color: rgb(165, 1605, 165);
+        }
+        footer{
+          background-color: black;
+          color: wheat;
+          text-align: center;
+          padding: 1px;
+          margin: 0px;
+        }
+      nav{
+        background-color: rgb(102, 102, 102);
+        padding: 3px;
+      }
+      nav > a {
+        text-decoration: none;
+        color: white;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin-right: 30px;
+      }
+      nav > a:hover{
+        text-decoration: underline;
+      }
+    </style>
+</head>
+<body>
+  <header>
+    <h1>meu site</h1>
+    <nav>
+      <a href="#">links</a>
+      <a href="#">links</a>
+      <a href="#">links</a>
+      <a href="#">links</a>
+      <a href="#">links</a>
+    </nav>
+  </header>
+  <main>
+    <section id="assuntos">
+      <p> esporte politica tecnologia</p>
+    </section>
+    <section id="noticias">
+      <article>
+        <h2>noticias sobre o brasil</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium temporibus sunt, consectetur officiis molestiae assumenda voluptatum sapiente delectus. Assumenda blanditiis nihil labore, officiis omnis illo sint. Cumque suscipit molestias magnam.</p>
+        <aside>
+          <p>artigo escrito por </p>
+        </aside>
+      </article>
+      <article>
+
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>desenvolvido pelo curso em video</p>
+  </footer>
+</body>
+</html>
